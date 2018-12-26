@@ -3,7 +3,7 @@ using System.IO;
 using System.Linq;
 using GradeBook.UserInterfaces;
 using Xunit;
-/*TEST*/
+
 namespace GradeBookTests
 {
     public class AddMultipleGradeBookTypeSupportToStartingUserInterfaceTests
