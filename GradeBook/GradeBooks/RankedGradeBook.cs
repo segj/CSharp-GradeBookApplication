@@ -8,7 +8,7 @@ namespace GradeBook.GradeBooks
 {
     class RankedGradeBook : BaseGradeBook
     {
-        public RankedGradeBook(String name) : base(name)
+        public RankedGradeBook(String name, bool IsWeighted) : base(name, IsWeighted)
         {
             Type = GradeBookType.Ranked;
         }
