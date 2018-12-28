@@ -111,11 +111,14 @@ namespace GradeBook.GradeBooks
         {
 
             int addPoints = 0;
-            if (IsWeighted && (studentType == StudentType.Honors !!studentType == StudentType.DualEnrolled)
+            if (IsWeighted && (studentType == StudentType.Honors))
             {
-                addPoints = 0;
+                addPoints = 1;
             }
-            
+            if (IsWeighted && (studentType == StudentType.DualEnrolled))
+            {
+                addPoints = 1;
+            }
             switch (letterGrade)
             {
                 case 'A':
