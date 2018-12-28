@@ -113,7 +113,7 @@ namespace GradeBook.GradeBooks
             int addPoints = 0;
             if (IsWeighted && (studentType == StudentType.Honors !!studentType == StudentType.DualEnrolled)
             {
-                addPoints = 1;
+                addPoints = 0;
             }
             
             switch (letterGrade)
